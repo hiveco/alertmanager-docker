@@ -8,3 +8,7 @@ Examples:
 
 * To set `--log.level=error`, add the option `-e ALERTMGR_LOG_LEVEL=error`
 * To set `--web.external-url=http://localhost:9093`, add the option `-e ALERTMGR_WEB_EXTERNAL__URL=http://localhost:9093`.
+
+See also [hiveco/prometheus](https://hub.docker.com/r/hiveco/prometheus), the Prometheus sister image to this one.
+
+> Another project by [Hive Collective](http://hivecollective.co). *DevOps-on-Demand, so you can focus on shipping features.*
