@@ -11,7 +11,7 @@ if [ ! -f Dockerfile ] || ! cmp -s Dockerfile.generated Dockerfile; then
     mv Dockerfile.generated Dockerfile
     git reset
     git add Dockerfile
-    git commit -m "Updated version to $current_branch"
+    git commit -m "Set version to $current_branch"
 else
     rm Dockerfile.generated
 fi
